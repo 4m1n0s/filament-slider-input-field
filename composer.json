@@ -4,9 +4,9 @@
     "require": {
         "php": "^8.0|^8.1",
         "filament/forms": "^2.16",
-        "illuminate/contracts": "^9.0",
+        "illuminate/contracts": "^9.0|^10.0",
         "spatie/laravel-package-tools": "^1.13.0",
-        "jantinnerezo/livewire-range-slider": "dev-main"
+        "4m1n0s/livewire-range-slider": "master"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -57,5 +57,19 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+        "repositories": [
+        {
+            "type":"package",
+            "package": {
+              "name": "4m1n0s/livewire-range-slider",
+              "version":"master",
+              "source": {
+                  "url": "https://github.com/4m1n0s/livewire-range-slider.git",
+                  "type": "git",
+                  "reference":"main"
+                }
+            }
+        }
+    ]
 }
